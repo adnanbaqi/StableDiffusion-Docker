@@ -3,7 +3,7 @@ FROM alpine/git:2.36.2 as download
 COPY clone.sh /clone.sh
 
 
-RUN . /clone.sh stable-diffusion-stability-ai https://github.com/Stability-AI/stablediffusion.git cf1d67a6fd5ea1aa600c4df58e5b47da45f6bdbf \
+RUN . /clone.sh stable-diffusion-stability-ai https://github.com/Stability-AI/stablediffusion.git  \
   && rm -rf assets data/**/*.png data/**/*.jpg data/**/*.gif
 
 RUN . /clone.sh CodeFormer https://github.com/sczhou/CodeFormer.git c5b4593074ba6214284d6acd5f1719b6c5d739af \
