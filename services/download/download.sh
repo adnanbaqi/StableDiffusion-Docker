@@ -60,4 +60,4 @@ echo "Cleaning up..."
 rm -rf /tmp/sd-webui-faceswaplab.zip /tmp/sd-webui-faceswaplab-main
 ######################################################################################################################################
 echo "Downloading, this might take a while..."
-aria2c -x 10 --disable-ipv6 --input-file /docker/links.txt --dir /data --continue
+aria2c -x 4 --disable-ipv6 --input-file /docker/links.txt --dir /data --continue
