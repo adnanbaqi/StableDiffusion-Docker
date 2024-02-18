@@ -1,5 +1,5 @@
 https://civitai.com/api/download/models/46846
-  out=models/Stable-diffusion/revAnimated_v122EOL
+  out=models/Stable-diffusion/revAnimated_v122EOL.safetensors
 https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1e_sd15_tile.pth?download=true
   out=models/ControlNet/models/control_v11f1e_sd15_tile.pth
 https://huggingface.co/ioclab/ioc-controlnet/resolve/main/models/control_v1p_sd15_brightness.safetensors?download=true
