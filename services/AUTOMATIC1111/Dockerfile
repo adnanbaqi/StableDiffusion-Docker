@@ -6,7 +6,7 @@ COPY clone.sh /clone.sh
 RUN . /clone.sh stable-diffusion-stability-ai https://github.com/Stability-AI/stablediffusion.git  \
   && rm -rf assets data/**/*.png data/**/*.jpg data/**/*.gif
 
-RUN . /clone.sh CodeFormer https://github.com/sczhou/CodeFormer.git c5b4593074ba6214284d6acd5f1719b6c5d739af \
+RUN . /clone.sh CodeFormer https://github.com/sczhou/CodeFormer.git  \
   && rm -rf assets inputs
 
 RUN . /clone.sh BLIP https://github.com/salesforce/BLIP.git 48211a1594f1321b00f14c9f7a5b4813144b2fb9
