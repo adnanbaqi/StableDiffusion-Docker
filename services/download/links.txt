@@ -1,25 +1,5 @@
 https://civitai.com/api/download/models/46846
   out=models/Stable-diffusion/revAnimated_v122EOL
-https://civitai.com/api/download/models/128713
-  out=models/Stable-diffusion/dreamshaper_8.safetensors
-https://civitai.com/api/download/models/130072
-  out=models/Stable-diffusion/realisticVisionV60B1_v51VAE.safetensors
-https://civitai.com/api/download/models/30163
-  out=models/Stable-diffusion/anything_v50.safetensors
-https://civitai.com/api/download/models/76907
-  out=models/Stable-diffusion/ghostmix_v20Bakedvae.safetensors
-https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
-  out=models/VAE/vae-ft-mse-840000-ema-pruned.ckpt
-https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/GFPGANv1.4.pth
-  out=models/GFPGAN/GFPGANv1.4.pth
-https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth
-  out=models/RealESRGAN/RealESRGAN_x4plus.pth
-https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth
-  out=models/RealESRGAN/RealESRGAN_x4plus_anime_6B.pth
-https://heibox.uni-heidelberg.de/f/31a76b13ea27482981b4/?dl=1
-  out=models/LDSR/project.yaml
-https://heibox.uni-heidelberg.de/f/578df07c8fc04ffbadf3/?dl=1
-  out=models/LDSR/model.ckpt
 https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1e_sd15_tile.pth?download=true
   out=models/ControlNet/models/control_v11f1e_sd15_tile.pth
 https://huggingface.co/ioclab/ioc-controlnet/resolve/main/models/control_v1p_sd15_brightness.safetensors?download=true
