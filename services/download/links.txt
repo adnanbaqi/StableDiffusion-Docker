@@ -8,6 +8,8 @@ https://huggingface.co/DionTimmer/controlnet_qrcode-control_v1p_sd15/resolve/mai
   out=models/ControlNet/models/control_v1p_sd15_qrcode.safetensors
 https://civitai.com/api/download/models/111973
   out=models/ControlNet/models/controlnetQRPatternQR_v2Sd15.safetensors
+https://civitai.com/api/download/models/128713
+  out=models/Stable-diffusion/dreamshaper_8.safetensors
 
 
 
