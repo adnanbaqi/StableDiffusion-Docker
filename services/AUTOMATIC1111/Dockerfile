@@ -1,4 +1,4 @@
-FROM alpine/git:2.36.2 as download
+FROM alpine/git:2.43.0 as download
 
 COPY clone.sh /clone.sh
 
