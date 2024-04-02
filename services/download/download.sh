@@ -32,19 +32,20 @@ mkdir -vp /data/.cache \
   /data/models/ControlNet/models
 
 #####################################################################################################################################
-echo "Downloading Mikubill/sd-webui-controlnet repository archive..."
+# Downloading and extracting sd-webui-controlnet
+echo "Downloading adnanbaqi/sd-webui-controlnet repository archive..."
 download "https://github.com/adnanbaqi/sd-webui-controlnet/archive/refs/heads/master.zip" "/tmp/sd-webui-controlnet.zip"
 
-#https://github.com/Mikubill/sd-webui-controlnet/archive/refs/heads/main.zip
 echo "Extracting files..."
 unzip /tmp/sd-webui-controlnet.zip -d /tmp
 
 echo "Copying files to /data/config/auto/extensions/sd-webui-controlnet..."
 mkdir -p /data/config/auto/extensions/sd-webui-controlnet
-cp -r /tmp/sd-webui-controlnet-main/* /data/config/auto/extensions/sd-webui-controlnet
+# Assuming the folder structure inside the zip is 'sd-webui-controlnet-master' based on GitHub's convention
+cp -r /tmp/sd-webui-controlnet-master/* /data/config/auto/extensions/sd-webui-controlnet
 
 echo "Cleaning up..."
-rm -rf /tmp/sd-webui-controlnet.zip /tmp/sd-webui-controlnet-main
+rm -rf /tmp/sd-webui-controlnet.zip /tmp/sd-webui-controlnet-master
 ######################################################################################################################################
 ######################################################################################################################################
 echo "Downloading Mikubill/sd-webui-controlnet repository archive..."
