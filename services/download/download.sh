@@ -33,8 +33,9 @@ mkdir -vp /data/.cache \
 
 #####################################################################################################################################
 echo "Downloading Mikubill/sd-webui-controlnet repository archive..."
-download "https://github.com/Mikubill/sd-webui-controlnet/archive/refs/heads/main.zip" "/tmp/sd-webui-controlnet.zip"
+download "https://github.com/adnanbaqi/sd-webui-controlnet/archive/refs/heads/master.zip" "/tmp/sd-webui-controlnet.zip"
 
+https://github.com/Mikubill/sd-webui-controlnet/archive/refs/heads/main.zip
 echo "Extracting files..."
 unzip /tmp/sd-webui-controlnet.zip -d /tmp
 
