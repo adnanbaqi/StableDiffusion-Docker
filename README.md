@@ -1,4 +1,4 @@
-﻿# Stable Diffusion with Control Net and Face Swap Lab
+﻿# Stable Diffusion with Control Net 
 
 This GitHub repository contains a Dockerized setup for Stable Diffusion with Control Net and Face Swap Labs. These labs provide tools and environments for image processing and manipulation tasks.
 
