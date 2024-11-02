@@ -1,16 +1,11 @@
-https://civitai.com/api/download/models/46846
+https://huggingface.co/kaifayazkhan/revAnimated_v122EOL/resolve/main/revAnimated_v122EOL.safetensors?download=true
   out=models/Stable-diffusion/revAnimated_v122EOL.safetensors
 https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1e_sd15_tile.pth?download=true
   out=models/ControlNet/models/control_v11f1e_sd15_tile.pth
 https://huggingface.co/ioclab/ioc-controlnet/resolve/main/models/control_v1p_sd15_brightness.safetensors?download=true
   out=models/ControlNet/models/control_v1p_sd15_brightness.safetensors
-https://huggingface.co/DionTimmer/controlnet_qrcode-control_v1p_sd15/resolve/main/control_v1p_sd15_qrcode.safetensors
-  out=models/ControlNet/models/control_v1p_sd15_qrcode.safetensors
-https://civitai.com/api/download/models/111973
-  out=models/ControlNet/models/controlnetQRPatternQR_v2Sd15.safetensors
-https://civitai.com/api/download/models/128713
-  out=models/Stable-diffusion/dreamshaper_8.safetensors
-
+https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors?download=true
+  out=models/lora/sd1.5_lora.safetensors
 
 
 
