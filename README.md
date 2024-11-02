@@ -12,11 +12,8 @@ To run the Image, follow these steps:
 
 ## Troubleshooting
 
-If the Face Swap Lab is not showing in the Stable Diffusion:
-
-1. Install Insight Face.
-2. Install Microsoft Visual C++ 14.0 or greater.
-3. Try reloading the UI.
+1. Install Microsoft Visual C++ 14.0 or greater.
+2. Try reloading the UI.
 
 ## Note
 
